@@ -1,0 +1,18 @@
+body {
+    background-color: #ffd630;
+    text-align: center;
+}
+
+.ooo {
+    font-family: "Oooh Baby", serif;
+    font-weight: bolder;
+    font-style: normal;
+}
+
+.container {
+    margin-top: 20vh;
+}
+input {
+    padding: 10px;
+    border: none;
+}
