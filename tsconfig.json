@@ -12,3 +12,16 @@
     "jsxImportSource": "preact"
   }
 }
+  "include": [".astro/types.d.ts", "**/*"],
+  "exclude": ["dist"],
+  "compilerOptions": {
+    "paths": {
+        "@/*": ["./src/*"],
+        "@public/*": ["./public/*"],
+        "@assets/*": ["./public/assets/*"],
+      },
+      "baseUrl": ".",
+      "strictNullChecks": true,
+      "allowJs": true
+  }
+}

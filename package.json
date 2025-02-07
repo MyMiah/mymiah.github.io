@@ -1,5 +1,5 @@
 {
-  "name": "web",
+  "name": "mymiah",
   "type": "module",
   "version": "0.0.1",
   "scripts": {
@@ -12,5 +12,6 @@
     "@astrojs/preact": "^4.0.4",
     "astro": "^5.1.7",
     "preact": "^10.25.4"
+    "astro": "^5.1.8"
   }
 }
