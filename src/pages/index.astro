@@ -4,6 +4,7 @@ import Icon from "@/components/Icon.astro";
 import { useState } from 'preact/hooks';
 
 import Font from "@/components/Font.astro";
+import IndexJS from "@/other/IndexJS.astro";
 
 const correctPassword = "110809";
 ---
@@ -19,6 +20,14 @@ const correctPassword = "110809";
 	<body>
 		<div class="container">
 			<h1 class="ooo">Welcome, My Love</h1>
+			<p class="ooo">Enter your birthday to continue: </p>
+			<form action="" name="myForm" method="GET">
+				<input type="password" value="" name="passInput" id="passInput"/>
+				<br>
+				<input type="submit" value="Enter" name="sub" id="enter" />
+				<p id="error" style="color: red; visibility: hidden;" class="ooo">Incorrect</p>
+			</form>
 		</div>
+		<IndexJS />
 	</body>
 </html>

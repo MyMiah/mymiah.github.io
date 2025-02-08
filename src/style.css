@@ -16,3 +16,11 @@ input {
     padding: 10px;
     border: none;
 }
+
+h1.ooo {
+    font-size: 30px;
+}
+
+p.ooo {
+    font-size: 25px;
+}
