@@ -19,7 +19,7 @@ if (window.addEventListener){window.addEventListener('load', WindowLoad, false);
 var error = document.getElementById("error");
 
 function check(myForm) {
-    const correct = "052586";
+    const correct = "110809";
     var input = myForm.passInput.value;
     if (input == correct) {
         window.location.href = '/home';
