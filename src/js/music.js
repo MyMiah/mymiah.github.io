@@ -1,4 +1,4 @@
-const audio = document.getElementById("backgroundMusic");
+const audio = document.getElementById("background");
 const button = document.getElementById("playPauseBtn");
 
 button.addEventListener("click", () => {
