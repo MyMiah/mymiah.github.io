@@ -20,7 +20,7 @@ var auth;
 var error = document.getElementById("error");
 
 function check(myForm) {
-    const correct = "110809";
+    const correct = "052586";
     var input = myForm.passInput.value;
     if (correct.includes(input)) {
         window.location.href = '/home';
