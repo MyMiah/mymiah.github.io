@@ -16,19 +16,15 @@ if (window.addEventListener){window.addEventListener('load', WindowLoad, false);
     });
 }
 
-var auth;
 var error = document.getElementById("error");
 
 function check(myForm) {
     const correct = "052586";
     var input = myForm.passInput.value;
-    if (correct.includes(input)) {
+    if (input == correct) {
         window.location.href = '/home';
+        error.style.visibility='hidden';
     } else {
         error.style.visibility='visible';
     }
-}
-
-if (auth == true) {
-    window.location.href = "/home";
 }
