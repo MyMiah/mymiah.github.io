@@ -1,0 +1,33 @@
+---
+const loveNotes = [
+    {
+        date: "January 2, 2025",
+        message: "The first day we texted each other on Instagram. That does is as memorable as ever, because what if we never met? What if you never found me? Especially in this desolate world full of lost hope."
+    },
+    {
+        date: "January 12, 2025",
+        message: "The day we made it official... funny enough I was scared. I was scared to open myself up even though by that time we had known each other for a few weeks."
+    },
+    {
+        date: "Feburary 3, 2025",
+        message: "This day is especially special since you gave me the greatest gift I could ever recieve; you're love and affection. You are and will forever will be the best person to ever have graced me with their presence, time, and patience."
+    },
+    {
+        date: "Feburary 4, 2025",
+        message: "A very scary day for the both of us. It will be forever memorable in both good an bad ways. It was truly a challenge for my loyalty for this relationship. It could've ended with me leaving because I couldn't handle not seeing you, but those are just negative thoughts that will never happen and won't ever."
+    },
+    {
+        date: "Feburary 12, 2025",
+        message: "That same day, other than our anniversary, we celebrated in different ways that you got out from that crazy place. I was scared, worried, and so many other emotions I can't put them into words. But, what was the greatest part of that day, was that we were able to celebrate our anniversary as well. Along with that, I hope for so many more anniversaries, celebrations, etc., just anything that has you in my life is amazing to know."
+    }
+]
+---
+
+<div class="diary-container">
+    {loveNotes.map(note => (
+        <div class="entry">
+            <h3>{note.date}</h3>
+            <p>{note.message}</p>
+        </div>
+    ))}
+</div>

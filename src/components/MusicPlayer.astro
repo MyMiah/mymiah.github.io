@@ -1,0 +1,13 @@
+---
+const songUrl = "@public/beabadoobee x Laufey - A Night To Remember (Official Lyric Video).mp3";
+import HomeJS from "@/other/HomeJS.astro";
+---
+
+<div class="music-container">
+    <button id="playPauseBtn">▶ Play</button>
+    <audio id="background" loop>
+        <source src={songUrl} type="audio/mp3" />
+        Your browser does not support the audio element.
+    </audio>
+    <HomeJS />
+</div>
