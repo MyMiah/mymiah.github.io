@@ -1,12 +1,17 @@
 const audio = document.getElementById("background");
-const button = document.getElementById("playPauseBtn");
+const btn1 = document.getElementById("playBtn");
+const btn2 = document.getElementById("pauseBtn");
 
-button.addEventListener("click", () => {
+btn1.addEventListener("click", () => {
     if (audio.played) {
         audio.play();
-        button.textContent = "⏸ Pause";
-    } else {
+        audio.loop = true;
+    }
+})
+
+btn2.addEventListener("click", () => {
+    if (audio.paused) {
         audio.pause();
-        button.textContent = "▶ Play";
+        audio.loop = false;
     }
 })
