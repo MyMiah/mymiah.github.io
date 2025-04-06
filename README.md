@@ -1,2 +1,2 @@
 # mymiah.github.io
-This is the github website, dedicated to my love.
+This is the github website, dedicated to the one I loved.
